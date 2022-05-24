@@ -1,6 +1,6 @@
 {
   "name": "alert-apside",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "files": [
     "src",
@@ -11,10 +11,10 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-library" : "vue-cli-service build --target lib --name alert-apside ./src/install.js",
+    "build-library": "vue-cli-service build --target lib --name alert-apside ./src/install.js",
     "lint": "vue-cli-service lint"
   },
-  "main" : ".dist/alert-apside.common.js",
+  "main": ".dist/alert-apside.common.js",
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
