@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": false,
   "files": [
-    "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
+    "src",
+    "dist/*.js"
   ],
+  "module": "dist/alert-apside.umd.js",
+  "jsdelivr": "dist/vue.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
