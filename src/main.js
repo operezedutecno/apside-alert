@@ -4,7 +4,7 @@ import vuetify from '@/plugins/vuetify' // path to vuetify export
 
 Vue.config.productionTip = false
 
-new Vue({
+export default new Vue({
   vuetify,
   render: h => h(App),
 }).$mount('#app')

@@ -11,7 +11,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-library": "vue-cli-service build --target lib --name alert-apside ./src/install.js",
+    "build-library": "vue-cli-service build --target lib --name alert-apside ./src/main.js",
     "lint": "vue-cli-service lint"
   },
   "main": ".dist/alert-apside.common.js",
