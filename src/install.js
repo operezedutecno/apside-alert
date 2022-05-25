@@ -13,4 +13,4 @@ if (typeof window !== 'undefined' && window.Vue) {
     window.Vue.use(AlertApside);
 }
 
-export default HelloWorld;
+export default AlertApside;
