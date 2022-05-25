@@ -4,11 +4,12 @@ import vuetify from '@/plugins/vuetify' // path to vuetify export
 const AlertApside = {
  install(Vue, options) {
     console.log(options);
-    console.log(vuetify);
+    console.log("Package Vuetify", vuetify);
   // Let's register our component globally
   // https://vuejs.org/v2/guide/components-registration.html
     Vue.$vuetify = vuetify.framework;
-    Vue.prototype.$vuetify = vuetify.framework;
+    Vue.vuetify = vuetify.framework;
+    Vue.prototype.vuetify = vuetify.framework;
     Vue.component("hello-world-apside", HelloWorld);
  }
 };
