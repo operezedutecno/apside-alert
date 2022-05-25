@@ -5,13 +5,19 @@ const AlertApside = {
      console.log(options);
   // Let's register our component globally
   // https://vuejs.org/v2/guide/components-registration.html
-  Vue.component("hello-world", HelloWorld);
+    Vue.component("hello-world", HelloWorld);
  }
 };
 
-// Automatic installation if Vue has been added to the global scope.
-if (typeof window !== 'undefined' && window.Vue) {
-    window.Vue.use(AlertApside);
+export function install(Vue) {
+	if (install.installed) return;
+	install.installed = true;
+	Vue.component("hello-world", HelloWorld);
 }
 
-export default Vue;
+// Automatic installation if Vue has been added to the global scope.
+// if (typeof window !== 'undefined' && window.Vue) {
+//     window.Vue.use(AlertApside);
+// }
+
+//export default Vue;
