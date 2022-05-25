@@ -2,7 +2,6 @@ import HelloWorld from "./components/HelloWorld.vue";
 
 const AlertApside = {
  install(Vue, options) {
-     console.log(options);
   // Let's register our component globally
   // https://vuejs.org/v2/guide/components-registration.html
   Vue.component("hello-world", HelloWorld);
@@ -14,4 +13,4 @@ if (typeof window !== 'undefined' && window.Vue) {
     window.Vue.use(AlertApside);
 }
 
-export default AlertApside;
+export default HelloWorld;
