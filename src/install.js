@@ -1,13 +1,13 @@
 import HelloWorld from "./components/HelloWorld.vue";
 
-const AlertApside = {
- install(Vue, options) {
-     console.log(options);
-  // Let's register our component globally
-  // https://vuejs.org/v2/guide/components-registration.html
-    Vue.component("hello-world", HelloWorld);
- }
-};
+// const AlertApside = {
+//  install(Vue, options) {
+//      console.log(options);
+//   // Let's register our component globally
+//   // https://vuejs.org/v2/guide/components-registration.html
+//     Vue.component("hello-world", HelloWorld);
+//  }
+// };
 
 export function install(Vue) {
 	if (install.installed) return;
