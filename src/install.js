@@ -9,11 +9,11 @@ const AlertApside = {
     Vue.use(Vuetify)
   // Let's register our component globally
   // https://vuejs.org/v2/guide/components-registration.html
-    //Vue.$vuetify = new Vuetify({});
+    Vue.$vuetify = new Vuetify({});
     //Vue.vuetify = new Vuetify({});
     //Vue.prototype.$vuetify = new Vuetify({});
-    //Vue.prototype.vuetify = new Vuetify({});
-    options.$vuetify = new Vuetify({});
+    Vue.prototype.vuetify = new Vuetify({});
+    //options.$vuetify = new Vuetify({});
     //options.vuetify = new Vuetify({});
     Vue.component("hello-world-apside", HelloWorld);
  }
