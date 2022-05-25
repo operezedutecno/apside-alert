@@ -10,7 +10,8 @@ const AlertApside = {
     // Vue.$vuetify = vuetify.framework;
     // Vue.vuetify = vuetify.framework;
     // Vue.prototype.vuetify = vuetify.framework;
-    options.vuetify = vuetify;
+    options.vuetify = vuetify.framework;
+    options.$vuetify = vuetify.framework;
     Vue.component("hello-world-apside", HelloWorld);
  }
 };
