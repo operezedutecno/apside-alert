@@ -6,11 +6,10 @@ import HelloWorld from "./components/HelloWorld.vue";
 const AlertApside = {
   install(Vue/*, options*/) {
     Vue.use(Vuetify);
-    var vuetify = new Vuetify({});
-    console.log(vuetify);
     // https://vuejs.org/v2/guide/components-registration.html
     Vue.component("hello-world-apside", HelloWorld);
-  }
+  },
+  vuetify: Vuetify({})
 };
 
 // Automatic installation if Vue has been added to the global scope.
