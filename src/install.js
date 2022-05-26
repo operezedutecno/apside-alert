@@ -1,11 +1,12 @@
 import HelloWorld from "./components/HelloWorld.vue";
 //import vuetify from '@/plugins/vuetify' // path to vuetify export
-// import Vuetify from 'vuetify'
+ import Vuetify from 'vuetify'
 // import 'vuetify/dist/vuetify.min.css'
 
 const AlertApside = {
   install(Vue/*, options*/) {
-    //Vue.use(vuetify);
+    Vue.use(Vuetify);
+    const vuetify = new Vuetify({});
     // https://vuejs.org/v2/guide/components-registration.html
     Vue.component("hello-world-apside", HelloWorld);
   }
