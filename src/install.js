@@ -7,7 +7,7 @@ const vuetify = new Vuetify();
 
 const AlertApside = {
   install(Vue/*, options*/) {
-    //Vue.use(Vuetify);
+    Vue.use(Vuetify);
     // https://vuejs.org/v2/guide/components-registration.html
     Vue.component("hello-world-apside", HelloWorld);
   },
