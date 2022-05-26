@@ -1,7 +1,7 @@
 import HelloWorld from "./components/HelloWorld.vue";
 //import vuetify from '@/plugins/vuetify' // path to vuetify export
- import Vuetify from 'vuetify'
-// import 'vuetify/dist/vuetify.min.css'
+import Vuetify from 'vuetify'
+import 'vuetify/dist/vuetify.min.css'
 
 const vuetify = new Vuetify();
 
