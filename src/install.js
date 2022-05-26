@@ -6,7 +6,8 @@ import HelloWorld from "./components/HelloWorld.vue";
 const AlertApside = {
   install(Vue/*, options*/) {
     Vue.use(Vuetify);
-    const vuetify = new Vuetify({});
+    var vuetify = new Vuetify({});
+    console.log(vuetify);
     // https://vuejs.org/v2/guide/components-registration.html
     Vue.component("hello-world-apside", HelloWorld);
   }
