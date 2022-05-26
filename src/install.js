@@ -8,8 +8,7 @@ const AlertApside = {
     Vue.use(Vuetify);
     // https://vuejs.org/v2/guide/components-registration.html
     Vue.component("hello-world-apside", HelloWorld);
-  },
-  vuetify: Vuetify({})
+  }
 };
 
 // Automatic installation if Vue has been added to the global scope.
