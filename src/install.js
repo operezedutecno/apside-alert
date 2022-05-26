@@ -3,12 +3,15 @@ import HelloWorld from "./components/HelloWorld.vue";
  import Vuetify from 'vuetify'
 // import 'vuetify/dist/vuetify.min.css'
 
+const vuetify = new Vuetify();
+
 const AlertApside = {
   install(Vue/*, options*/) {
-    Vue.use(Vuetify);
+    //Vue.use(Vuetify);
     // https://vuejs.org/v2/guide/components-registration.html
     Vue.component("hello-world-apside", HelloWorld);
-  }
+  },
+  vuetify
 };
 
 // Automatic installation if Vue has been added to the global scope.
