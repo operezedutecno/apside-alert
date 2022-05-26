@@ -2,6 +2,7 @@
   "name": "alert-apside",
   "version": "0.1.23",
   "private": false,
+  "type": "module",
   "files": [
     "src",
     "dist/*.js"
